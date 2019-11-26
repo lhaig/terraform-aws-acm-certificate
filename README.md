@@ -29,7 +29,7 @@ Certificate Creation example:
 module "aws_acm_certificate_tower" {
   source                = "app.terraform.io/<ORG_NAME>/acm-certificate/aws"
   acm_domain_name       = "yourdomain.name"
-  acm_san_name          = ["apps.yourdomain.com","db.yourdomain.com"]
+  acm_san               = ["apps.yourdomain.com","db.yourdomain.com"]
   acm_validation_method = "DNS"
 }
 ```
