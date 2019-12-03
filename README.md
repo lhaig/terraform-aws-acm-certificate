@@ -17,9 +17,7 @@ The module supports :
 
 ## Terraform versions
 
-Support of Terraform 0.12 is not yet implemented. (WIP)
-
-If you are using Terraform 0.11 you can use versions `v1.*`.
+Module upgraded to terraform 12
 
 ## Usage
 
@@ -38,5 +36,4 @@ module "aws_acm_certificate_tower" {
 
 * **Nicolas Ehrman** - *Initial work* - [Hashicorp](https://www.hashicorp.com)
 
-
-
+* **Lance Haig** - *Upgraded to terraform 12* - [Hashicorp](https://www.hashicorp.com)
